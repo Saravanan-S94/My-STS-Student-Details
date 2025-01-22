@@ -18,7 +18,7 @@ public class ResultsController {
 	@Autowired
 	ResultsService rs;
 	
-	@PostMapping("/calculate")
+	@PostMapping("/calculate1")
 	public String calc() {
 		return rs.calc();
 	}

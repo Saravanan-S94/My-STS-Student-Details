@@ -16,7 +16,7 @@ public class ResultsDAO {
 	
 	public String calc(List<Results> res) {	
 		rr.saveAll(res);
-		return "Saved";
+		return "Saved Successfully";
 	}
 public List<Results> getAll() {
 	return rr.findAll();
